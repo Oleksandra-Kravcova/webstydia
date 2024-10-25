@@ -1,0 +1,32 @@
+.header__logo1{
+    font-family: "Raleway", serif;
+}
+.header__logo2{
+    font-family: "Raleway", serif;
+}
+.header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.header__list{
+display: flex;
+gap: 50px;
+}
+.nav__item{
+    list-style-type: none;
+}
+.header__contacts{
+    display: flex;
+    gap: 50px;
+}
+.section__h1{
+    font-family: "Roboto", sans-serif;
+}
+.div__logo{
+    font-family: "Roboto", sans-serif;
+}
+.div__team{
+    font-family: "Roboto", sans-serif;
+}
