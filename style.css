@@ -1,0 +1,63 @@
+.header__logo1 {
+    font-family: "Raleway", serif;
+}
+
+.header__logo2 {
+    font-family: "Raleway", serif;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header__list {
+    display: flex;
+    gap: 50px;
+}
+
+.nav__item {
+    list-style-type: none;
+}
+
+.header__contacts {
+    display: flex;
+    gap: 50px;
+}
+
+.section__h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+.div__logo {
+    font-family: "Roboto", sans-serif;
+}
+
+.div__team {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+
+    font-family: Inter;
+
+}
+.WebStudio_section {
+    background-color: rgb(65, 64, 64);
+    padding: 200px 0;
+}
+
+.title {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.button {
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+}
+
+.footer {
+    background-color: grey;
+}
