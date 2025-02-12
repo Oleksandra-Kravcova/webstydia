@@ -1,14 +1,34 @@
 .header__logo1 {
-    font-family: "Raleway", serif;
-}
+font-family: "Raleway", serif;
+    color: rgb(102, 114, 221);
+    width: 145;
+        height: 31;
+        top: 24px;
+        left: 215px;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 30.52px;
+            letter-spacing: 3%;
+        }
+
 
 .header__logo2 {
-    font-family: "Raleway", serif;
+font-family: "Raleway", serif;
+    color: rgb(0, 0, 0);
+    width: 145;
+        height: 31;
+        top: 24px;
+        left: 215px;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 30.52px;
+            letter-spacing: 3%;
+  
 }
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .header__list {
@@ -25,13 +45,13 @@
     gap: 50px;
 }
 
-.section__h1 {
+.section__h2 {
     font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
-.div__logo {
-    font-family: "Roboto", sans-serif;
-}
+
 
 .div__team {
     font-family: "Roboto", sans-serif;
@@ -50,14 +70,42 @@ body {
 .title {
     width: fit-content;
     margin: 0 auto;
+    color: white;
+    font-family: "Roboto", serif;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 6%;
+        text-align: center;
 }
 
 .button {
-    width: fit-content;
-    margin: 0 auto;
-    display: block;
+    margin-left:700px ;
+    padding: 15px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        border: rgb(45, 45, 59) solid 2px;
+        background-color: rgb(45, 45, 59);
+        color: white;
+        border-radius: 7px;
+        cursor: pointer;
+        transition:
+            background-color 0.5s ease-in-out,
+            color 0.5s ease-in-out,
+            transform 0.5s ease-in-out,
+            box-shadow 0.5s ease-in-out;
+    }
+    .button:hover{
+        background-color: rgb(82, 82, 252);
+    }
+span{
+    color:rgb(255, 255, 255)
 }
 
 .footer {
     background-color: grey;
+}
+.WebStudio_section{
+    background-image: url(./imeges/Img.svg);
+    width: 1600px;
 }
